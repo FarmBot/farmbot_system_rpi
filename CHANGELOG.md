@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.6.1-farmbot.1
+* Enhancements
+  * Add unprivileged user for Farmware
+
 ## v1.6.1-farmbot.0
 * Updated dependencies
   * Python 3
