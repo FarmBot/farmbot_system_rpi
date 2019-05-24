@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.7.2-farmbot.1
+
+  * Disable kernel logging to uart GPIO
+  * Disable Erlinit logging to uart GPIO
+
 ## v1.7.2-farmbot.0
 
   * Merge Upstream system
