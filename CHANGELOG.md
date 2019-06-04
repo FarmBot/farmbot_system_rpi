@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.7.2-farmbot.2
+  * Linux
+    * Enable advanced routing
+    * Enable kernel modules for ASIX usb network adapters 
+
 ## v1.7.2-farmbot.1
 
   * Disable kernel logging to uart GPIO
