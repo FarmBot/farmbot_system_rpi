@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7.2-farmbot.3
+  * Buildroot
+    * Enable Dnsmasq
+
 ## v1.7.2-farmbot.2
   * Linux
     * Enable advanced routing
