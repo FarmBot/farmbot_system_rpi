@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.9.0-farmbot.1
+
+* move repository to `farmbot` org
+* Merge upstream system
+* Fix python opencv bug
+  * [details](http://lists.busybox.net/pipermail/buildroot/2019-September/259271.html) 
+
 ## v1.9.0
 
 This release updates Buildroot to 2019.08 with security and bug fix updates
