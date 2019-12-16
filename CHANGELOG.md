@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.10.0-farmbot.1
+
+* merge upstream system
+
 ## v1.10.0
 
 This release updates Buildroot to 2019.11 with security and bug fix updates
