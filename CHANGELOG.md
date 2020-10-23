@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.13.0-farmbot.1
+
+ * merge upstream system
+ * USB Ethernet drivers
+ * Remove ERL_CRASH_DUMP_SECONDS
+
 ## v1.10.0-farmbot.1
 
 * merge upstream system
@@ -7,8 +13,8 @@
 ## v1.10.0
 
 This release updates Buildroot to 2019.11 with security and bug fix updates
-across Linux packages. Enables dnsd, udhcpd and ifconfig in the default 
-Busybox configuration to support `vintage_net` and `vintage_net_wizard`. 
+across Linux packages. Enables dnsd, udhcpd and ifconfig in the default
+Busybox configuration to support `vintage_net` and `vintage_net_wizard`.
 See the `nerves_system_br` notes for details.
 
 * Updated dependencies
@@ -38,7 +44,7 @@ Erlang/OTP is now at 22.1.1.
 * move repository to `farmbot` org
 * Merge upstream system
 * Fix python opencv bug
-  * [details](http://lists.busybox.net/pipermail/buildroot/2019-September/259271.html) 
+  * [details](http://lists.busybox.net/pipermail/buildroot/2019-September/259271.html)
 
 ## v1.9.0
 
@@ -94,7 +100,7 @@ See the nerves_system_br and toolchain release notes for more information.
 ## v1.7.2-farmbot.2
   * Linux
     * Enable advanced routing
-    * Enable kernel modules for ASIX usb network adapters 
+    * Enable kernel modules for ASIX usb network adapters
 
 ## v1.7.2-farmbot.1
 
