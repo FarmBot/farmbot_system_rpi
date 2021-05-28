@@ -23,3 +23,4 @@ erl_crash.dump
 nerves_*.tar.gz
 nerves_*.tar.xz
 log*
+farmbot_system_rpi-*
