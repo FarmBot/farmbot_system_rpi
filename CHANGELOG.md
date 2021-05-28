@@ -79,8 +79,6 @@ https://github.com/fhunleth/rpi_fb_capture/issues/2 for details.
 
 ## v1.8.0
 
-This release
-
 This release updates Erlang to OTP 22 and gcc from version 7.3.0 to 8.3.0.
 See the nerves_system_br and toolchain release notes for more information.
 
