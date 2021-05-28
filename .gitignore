@@ -20,3 +20,6 @@ erl_crash.dump
 /build.log
 /archive.log
 /.nerves
+nerves_*.tar.gz
+nerves_*.tar.xz
+log*
