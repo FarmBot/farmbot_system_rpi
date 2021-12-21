@@ -65,7 +65,7 @@ defmodule FarmbotSystemRpi.MixProject do
   defp deps do
     [
       {:nerves, "~> 1.5.4 or ~> 1.6.0 or ~> 1.7.3", runtime: false},
-      {:nerves_system_br, "1.16.5", runtime: false},
+      {:nerves_system_br, "1.17.4", runtime: false},
       {:nerves_toolchain_armv6_nerves_linux_gnueabihf, "~> 1.4.3", runtime: false},
       {:nerves_system_linter, "~> 0.4", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.22", only: :docs, runtime: false}
@@ -106,7 +106,7 @@ defmodule FarmbotSystemRpi.MixProject do
       "fwup-revert.conf",
       "fwup.conf",
       "LICENSE",
-      "linux-5.4.defconfig",
+      "linux-5.10.defconfig",
       "mix.exs",
       "nerves_defconfig",
       "post-build.sh",
@@ -124,7 +124,7 @@ defmodule FarmbotSystemRpi.MixProject do
 
   defp build_runner_opts() do
     # Download source files first to get download errors right away.
-    [make_args: primary_site() ++ ["source", "all"]]
+    [make_args: primary_site() ++ ["source", "all", "legal-info"]]
   end
 
   defp primary_site() do
