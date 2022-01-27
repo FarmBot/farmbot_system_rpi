@@ -1,6 +1,6 @@
 # Raspberry Pi Model Zero, A+, B, and B+
 
-[![CircleCI](https://circleci.com/gh/Farmbot-Labs/farmbot_system_rpi.svg?style=svg)](https://circleci.com/gh/Farmbot-Labs/farmbot_system_rpi)
+[![CircleCI](https://circleci.com/gh/farmbot/farmbot_system_rpi.svg?style=svg)](https://circleci.com/gh/farmbot/farmbot_system_rpi)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi)
 
 This is the base Nerves System configuration for the Raspberry Pi A+, B,
